@@ -1,0 +1,31 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(to right, white, #f66)
+}
+
+form {
+	color: #c03;
+	text-shadow: 1px 1px 1px;
+	font-family: tahoma;
+	font-size: 20px;
+	padding: 5px;
+	width: 800px;
+	border-radius: 5px;
+}
+
+.fieldset {
+
+}
+
+label {
+
+}
+
+input {
+	
+}

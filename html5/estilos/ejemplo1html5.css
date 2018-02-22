@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: red;
+}
+nav{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: blue;
+}
+section{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 200px;
+    background: orange;
+}
+aside{
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 200px;
+    background: yellow;
+}
+footer{
+    position: relative;
+    float: right;
+    width: 100%;
+    height: 50px;
+    background: green;
+}

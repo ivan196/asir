@@ -1,0 +1,49 @@
+@font-face {
+   font-family: mifuente;
+   src: url(JuraLight.ttf);
+   font-weight: bold;
+}
+body {
+background:#9B90C8;
+color: #5B3A5B;
+font-family:mifuente;
+font-size: 16px;
+}
+form {
+margin:auto;
+background:#9B90C8;
+padding: 30px;
+width: 450px;
+border:groove 10px #AF71AF;
+border-radius: 5px;
+}
+form fieldset {
+border: none;
+}
+form legend {
+font-size:20px;
+} 
+form input{
+font-size:16px;
+background: white;
+border:solid 1px #5B3A5B;
+border-radius: 5px;
+float: right;
+margin-right: 15px;
+width: 200px;
+}
+
+form ol li {
+line-height: 25px;
+list-style: none;
+}
+
+button {
+border-radius: 5px;
+font-size:16px;
+width:200px;
+height:40px;
+color: #5B3A5B;
+font-family: mifuente;
+}
+

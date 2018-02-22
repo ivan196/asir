@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Validar formularios con HTML5 y CSS3</title>
+<link rel="stylesheet" href="Ejemplo2Formulario.css"/>
+</head>
+
+<body>
+<form id="formulario">
+    <fieldset>
+        <legend>Datos personales</legend>
+        <ol>
+			<li>
+				<label for="nombre">Nombre</label>
+                <!--Permite mayúsculas minúsculas y espacios-->
+				<input id="nombre" name="nombre" type="text" placeholder="Escribe tu nombre completo" required autofocus>
+			</li>
+			<li>
+				<label for="email">Email</label>
+				<input id="email" name="email" type="email" placeholder="correo@dominio.com" required>
+			</li>
+			<li>
+				<label for="telefono">Teléfono</label>          
+				<input id="tel" name="telefono" type="tel" placeholder="Ej. 655444333" required>
+			</li>
+			<li>
+				<label for="pais">País</label>
+				<input id="pais" name="pais" type="text" required>
+			</li>
+			<li>
+				<label for="nacimiento">Fecha Nacimiento</label>
+				<input id="nacimiento" name="nacimiento" type="date" required>
+			</li>	
+			<li>
+				<label for="colorfav">Color favorito</label>
+				<input id="colorfav" name="colorfav" type="color">
+			</li>				
+        </ol>
+    </fieldset>
+    <fieldset>
+        <legend>Datos de tarjeta de crédito</legend>
+        <ol>
+			<li>
+				<label for="numtarjeta">Número</label>
+				<input id="numtarjeta" name="numtarjeta" type="number" max="5" placeholder="Ej. 5555444433332222" required>
+			</li>
+			<li>
+				<label for="nomtarjeta">Nombre</label>
+				<input id="nomtarjeta" name="nomtarjeta" type="text" placeholder="Nombre del propietario" required>
+			</li>	
+            <li>
+				<label for="mescad">Mes Caducidad</label>
+				<input id="mescad" name="mescad" type="month" value="1" min="1" max="12" step="1"/>
+			</li>			
+        </ol>
+    </fieldset>
+    <fieldset>
+        <button type="submit">Realizar compra</button>
+    </fieldset>
+</form>
+
+</body>
+</html>

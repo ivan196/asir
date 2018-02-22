@@ -1,0 +1,106 @@
+* {
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+body {
+	margin: 20px auto;
+	width: 600px;
+	background: #E8E8E8;
+	font-family: calibri;
+	font-size: 18px;
+}
+
+header h1 {
+	width: 600px;
+	height: 60px;
+	background: #5F060C;
+	color: #E8E8E8;
+	padding-top: 10px;
+	text-align: center;
+}
+
+h2 {
+	color: #5F060C;
+}
+
+#video {position: relative;
+	float: left;
+	width: 260px;
+	height: 300px;
+	text-align: justify;
+	padding: 20px;
+}
+
+#texto{
+	position: relative;
+	float: right;
+	width: 260px;
+	height: 300px;
+	text-align: justify;
+	padding: 20px;
+}
+
+aside {
+	margin-top: 80px;
+	position: relative;
+	float: left;
+	width: 600px;
+	text-align: center;
+}
+
+form {
+	width: 600px;
+}
+
+#entradas {
+	position: relative;
+	float: left;
+	width: 300px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	height: 160px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+#comentario {
+	position: relative;
+	float: left;
+	width: 300px;
+	position: relative;
+	float: right;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	height: 160px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+legend {
+	text-align: center;
+}
+
+input {
+	height: 30px;
+	width: 200px;
+	margin-top: 10px;
+}
+
+footer {
+	position: relative;
+	float: left;
+	width: 600px;
+	background: #5F060C;
+	color: #E8E8E8;
+	text-align: center;
+}
+
+textarea {
+	width: 200px;
+}
+
+button {
+	margin-top: 22px;
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+	background: #728eaa;
+	color: #C03;
+	text-shadow: 1px 1px 1px #ccc;
+	font-family: sans-serif;
+}
+
+#formulario {
+	margin: auto;
+	padding: 60px 30px;
+	width: 450px;
+	border-radius: 5px #e1e1e1;
+	box-shadow: 0px 0px 8px #444;
+	background-color: #f2f2f2;
+}
+
+h1 {
+	font-size: 35px;
+	color: #445668;
+	margin-bottom: 35px;
+	text-shadow: 0px 1px 0px #f2f2f2;
+}
+
+label {
+	position: relative;
+	float: left;
+	margin-top: 11px;
+	margin-right: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #445668;
+	box-shadow: 0px 1px 0px #f2f2f2;
+	text-align: right;
+	width: 95px;
+}
+
+input {
+	position: relative;
+	height: 35px;
+	width: 260px;
+	padding: 5px 20px 0px 20px;
+	margin: 0px 0px 20px 0px;
+	background-color: #728eaa;
+	border-radius: 5px #e1e1e1;
+	border: 5px solid #728eaa;
+	font-size: 16px;
+	color: #f2f2f2;
+	box-shadow: 0px -1px 0px #f2f2f2;
+}
+
+textarea {
+	width: 260px;
+	height: 170px;
+	padding: 12px 20px 0px 20px;
+	margin: 0px 0px 20px 0px;
+	background-color: #728eaa;
+	border: 5px;
+	border-radius: 5px #e1e1e1;
+	box-shadow: 0px 1px 0px #f2f2f2;
+	font-size: 16px;
+	color: #f2f2f2;
+}
+
+#boton {
+	float: right;
+	width: 185px;
+	height: 52px;
+	padding: 10px 15px;
+	text-align: center;
+	color: #a1b2c3;
+	background-color: #728eaa;
+	border: 1px solid #556f8c;
+	box-shadow: 0px 0px 5px #999;
+}
+
+#boton:hover {
+	opacity: 0.55;
+	color: #445668;
+}
